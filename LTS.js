@@ -1,4 +1,3 @@
-// quantumult_response_rewriter.js
 let body = $response.body;
 let obj = JSON.parse(body);
 
