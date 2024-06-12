@@ -1,8 +1,10 @@
 #[rewrite_local]
 # 处理所有 http://106.75.230.12:81/datum/tool/matchHead/* 请求
+
 ^http://106\.75\.230\.12:81/datum/tool/matchHead/.*$ url script-response-body LTS.js
 
 #[mitm]
 # 需要捕获的域名
+
 hostname = 106.75.230.12
 
