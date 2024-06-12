@@ -1,7 +1,7 @@
 #[rewrite_local]
 # 处理所有 http://106.75.230.12:81/datum/tool/matchHead/* 请求
 
-^http://106\.75\.230\.12:81/datum/tool/matchHead/.*$ url script-response-body https://raw.githubusercontent.com/Bennie-CHEN/LTSP/main/LTS.js
+^http://106\.75\.230\.12:81/datum/tool/matchHead/.*$ url script-response-body LTS.js
 
 #[mitm]
 # 需要捕获的域名
