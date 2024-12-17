@@ -1,4 +1,5 @@
 let body = $response.body;
+console.log($response.body);
 let obj = JSON.parse(body);
 
 if (obj.data) {
